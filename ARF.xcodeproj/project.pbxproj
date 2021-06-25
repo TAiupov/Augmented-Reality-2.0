@@ -28,6 +28,7 @@
 		CFEF05DB2683DF1B00A5B35F /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEF05DA2683DF1B00A5B35F /* View+Extensions.swift */; };
 		CFEF05DD2683E5A900A5B35F /* SessionSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEF05DC2683E5A900A5B35F /* SessionSettings.swift */; };
 		CFEF05DF2684028B00A5B35F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEF05DE2684028B00A5B35F /* SettingsView.swift */; };
+		CFEF05E326857BAA00A5B35F /* redchair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = CFEF05E226857BAA00A5B35F /* redchair.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		CFEF05DA2683DF1B00A5B35F /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		CFEF05DC2683E5A900A5B35F /* SessionSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSettings.swift; sourceTree = "<group>"; };
 		CFEF05DE2684028B00A5B35F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CFEF05E226857BAA00A5B35F /* redchair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = redchair.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				CFEF05C32683A3A800A5B35F /* fender_stratocaster.usdz */,
+				CFEF05E226857BAA00A5B35F /* redchair.usdz */,
 				CFEF05C52683A3B400A5B35F /* gramophone.usdz */,
 				CFEF05C12683A39F00A5B35F /* toy_drummer.usdz */,
 				CFEF05C42683A3AE00A5B35F /* toy_robot_vintage.usdz */,
@@ -294,6 +297,7 @@
 				CF9E692526839E6600398E1A /* Preview Assets.xcassets in Resources */,
 				CFEF05C82683A3B400A5B35F /* fender_stratocaster.usdz in Resources */,
 				CFEF05C92683A3B400A5B35F /* toy_robot_vintage.usdz in Resources */,
+				CFEF05E326857BAA00A5B35F /* redchair.usdz in Resources */,
 				CF9E692226839E6600398E1A /* Assets.xcassets in Resources */,
 				CFEF05C72683A3B400A5B35F /* tv_retro.usdz in Resources */,
 				CFEF05CA2683A3B400A5B35F /* gramophone.usdz in Resources */,

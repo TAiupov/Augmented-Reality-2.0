@@ -14,6 +14,7 @@ enum ModelCategory: CaseIterable {
     case chair
     case decor
     case light
+    case items
     
     var label: String {
         get {
@@ -26,6 +27,8 @@ enum ModelCategory: CaseIterable {
                 return "Decor"
             case .light:
                 return "Lights"
+            case .items:
+                return "Items"
             }
         }
     }
@@ -72,12 +75,13 @@ struct Models {
     
     init() {
         //tables
-        let guitar = Model(name: "fender_stratocaster", category: .decor, scaleCompensation: 32/100)
-        let gramophone = Model(name: "gramophone", category: .table, scaleCompensation: 32/100)
-        let toyDrummer = Model(name: "toy_drummer", category: .decor, scaleCompensation: 32/100)
-        let toyRobot = Model(name: "toy_robot_vintage", category: .light, scaleCompensation: 32/100)
-        let tvRetro = Model(name: "tv_retro", category: .chair, scaleCompensation: 32/100)
-        self.all.append(contentsOf: [guitar, gramophone, toyRobot, toyDrummer,tvRetro])
+        let guitar = Model(name: "fender_stratocaster", category: .items, scaleCompensation: 1.0)
+        let gramophone = Model(name: "gramophone", category: .items, scaleCompensation: 1.0)
+        let toyDrummer = Model(name: "toy_drummer", category: .items, scaleCompensation: 1.0)
+        let toyRobot = Model(name: "toy_robot_vintage", category: .items, scaleCompensation: 1.0)
+        let tvRetro = Model(name: "tv_retro", category: .items, scaleCompensation: 1.0)
+        let redChair = Model(name: "redchair", category: .items, scaleCompensation: 60 / 100)
+        self.all.append(contentsOf: [guitar, gramophone, toyRobot, toyDrummer,tvRetro, redChair])
     }
     
     func get(category: ModelCategory) -> [Model] {
